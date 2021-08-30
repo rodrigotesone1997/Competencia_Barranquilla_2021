@@ -1,72 +1,46 @@
 <h1 align="center">Bienvenido 👋</h1>
 <p>
-  <a href="ss" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/rodrigotesone97?s=08" target="_blank">
+  <a href="https://twitter.com/rodrigotesone97" target="_blank">
     <img alt="Twitter: Rodrigo Tesone" src="https://img.shields.io/twitter/follow/rodrigotesone97.svg?style=social" />
   </a>
 </p>
 
-> El repositorio consta de un script que scrapea la pagina web de la [Municipalidad de Rosario](https://www.rosario.gob.ar/web/gobierno/personal/sueldos), descarga los pdf que contienen los sueldos dentro de ella, verifica si son iguales a la última actualización disponible en la carpeta pdf de este [archivo](Gasto_Publico_Argentino_files.zip).<br/>
-> En caso de que se actualizen se incorporan en una nueva carpeta con el siguiente formato: "Año_Mes_Sueldos".<br/>
-> Si hubo un cambio respecto a la ultima revision (es decir, si se agregaron nuevos documentos) me envia un mail notificandome.</br></br>
+En este repositorio se encuentran el código de las visualizaciones utilizadas en la competencia ["Liga Python versión 2.0"](https://pybaq.co/blog/liga-python/) en la Semifinal 1 y aqui estan las [slides](https://docs.google.com/presentation/d/1e4ibCu9q8bI2CHEN_gxeMoiEmV_ZcnhZeP8tEZewgoc/edit?usp=sharing) que utilize.</br>
+Mi charla se titula ["Breves historias de politica y datos"](https://youtu.be/9fvHu0WceO0?t=03m20s).</br>
+PD: ¡Pase a la final! (no lo podia creer)</br></br>
 
-![Demo](Demo.jpeg)
+> Este repositorio consta de:
+> - Una carpeta llamada ["Datos_Barranquilla"](Datos_Barranquilla) donde estan descargados los [datos oficiales](https://www.datos.gov.co/browse?q=Alcaldia+Barranquilla) de la ciudad de Barranquilla (consultados por ultima vez: 24/08/21).
+> - El [cuaderno](Python_Barranquilla.ipynb) donde se crean las visualizaciones.
+
 
 ## 📂 Clonar Reposotorio
 
 ```
-git clone https://github.com/rodrigotesone1997/Scrapper_Sueldos_Municipales.git
+git clone https://github.com/rodrigotesone1997/Competencia_Barranquilla_2021.git
 ```
 
 ## 🐍 Versión de Python
 
 ```
-Python 3.8.8
+3.8.10
 ```
 
-## 👨‍💻 Instalación
+## 🪐📓 Version Jupyter Notebook
 
-#### 🪟 Usuarios Windows:
-
-Ademas de los requerimientos que estan [aquí](requirements.txt) es posible que surga el siguiente error al momento de uso:
-```
-TesseractNotFound Error: tesseract is not installed or it's not in your path
-```
-En ese caso se recomienda seguir el siguiente [video](https://www.youtube.com/watch?v=DG5D8A3zi4o&ab_channel=MotechApp).</br>
-El paquete `pdf2image` necesita la descarga del ejecutable ubicado [aquí](https://github.com/oschwartz10612/poppler-windows/releases/).
-Para mas información al respecto mirar https://www.geeksforgeeks.org/convert-pdf-to-image-using-python/ .
-
-#### 🐧 Usuarios Linux:
-
-Asi lo instale en Ubuntu 20.04 pero por lo que vi es similar en otras distros.</br>
-Se necesita instalar `tesseract-ocr` con el siguiente comando:
-```
-apt-get install tesseract-ocr
-```
-Luego instalar:
-```
-apt-get install tesseract-ocr-EN
-```
-EN debe ser reemplazado por el idioma para el que quieras utilizarlo.En este caso es español:
-```
-apt-get install tesseract-ocr-spa
-```
-Aunque yo recomiendo usar `apt-get install tesseract-ocr-all` asi podes usarlo sin restricciones.</br>
-Informacion sobre la instalacion [aca](https://linuxhint.com/install-tesseract-ocr-linux/) y sobre la instalacion de español [aca](https://parzibyte.me/blog/2019/05/18/instalar-tesseract-ocr-idioma-espanol-ubuntu/).
-## ⚙️ Uso
-
-1. (Opcional) Crear un entorno virtual `virtualenv` y activarlo.
-2. Instalar las depedencias `pip install -r requirements.txt`
-3. Descomprimir el [.zip](Gasto_Publico_Argentino_files.zip)
-4. Reemplazar el path de "Gasto_Publico_Argentino_files" dentro de la variable `path_local` del script [Fase_1.py](Fase_1.py)
-5. Revisar el código en caso de necesitar comentar algunas lineas (mas información comentada en el código)
-6. Por último, ejecutar [Fase_1.py](Fase_1.py)
-
-## 🔮 Futuro del Proyecto
-
-Proximamente publicare un repositorio que seria la "Fase 2" del proyecto donde se crearia una carpeta donde se limpiarian los datos en pdf a archivos .xlsx
+jupyter core     : 4.7.1</br>
+jupyter-notebook : 6.4.0</br>
+qtconsole        : 5.1.0</br>
+ipython          : 7.24.1</br>
+ipykernel        : 5.5.5</br>
+jupyter client   : 6.1.12</br>
+jupyter lab      : not installed</br>
+nbconvert        : 6.0.7</br>
+ipywidgets       : 7.6.3</br>
+nbformat         : 5.1.3</br>
+traitlets        : 5.0.5</br>
 
 ## ✉️ Contacto
 
@@ -76,16 +50,13 @@ Cualquier sugerencia de arquitectura de código,pregunta o problema enviar mail 
 
 👤 **Rodrigo Tesone**
 
-<!---* Website: xadec
--->
-* Twitter: [@rodrigotesone97](https://twitter.com/rodrigotesone97?s=08)
+* Twitter: [@rodrigotesone97](https://twitter.com/rodrigotesone97)
 * Github: [rodrigotesone1997](https://github.com/rodrigotesone1997)
-<!---* LinkedIn: [@ff](https://linkedin.com/in/ff)
--->
+* LinkedIn: [rodrigo-tesone](https://www.linkedin.com/in/rodrigo-tesone/)
+
 ## 🤝 Contribuciones y Agradecimientos
 
-Agradezco a [Bautista](https://github.com/coltking) por la motivación e ideas al proyecto , a [Alejandro](https://github.com/alexdraven) la revisión del código, a mi hermana pequeña por la selección de emojis 😉 y a la Municipalidad de Rosario por publicar tan pauperrimamente sus datos y obligarme a hacer esto.
-
+Agradezco a todos los que se han tomando el tiempo alguna vez para enseñarme e inspirarme en diferentes momentos de mi vida.
 
 ## 📝 Licencia
 
@@ -93,4 +64,5 @@ Copyright © 2021 [Rodrigo](https://github.com/rodrigotesone1997).<br />
 This project is [MIT](LICENSE) licensed.
 
 ***
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
