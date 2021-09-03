@@ -56,7 +56,7 @@ Cualquier sugerencia de arquitectura de código,pregunta o problema enviar mail 
 
 ## 🤝 Contribuciones y Agradecimientos
 
-Agradezco a todos los que se han tomando el tiempo alguna vez para enseñarme e inspirarme en diferentes momentos de mi vida.
+Agradezco a los organizadores por la oportunidad en mi primera competencia.
 
 ## 📝 Licencia
 
