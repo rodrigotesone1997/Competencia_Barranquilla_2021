@@ -1,5 +1,6 @@
 <h1 align="center">Bienvenido 👋</h1>
 <p>
+    <a href="LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/rodrigotesone97" target="_blank">
@@ -16,7 +17,7 @@ PD: ¡Pase a la final! (no lo podia creer)</br></br>
 > - El [cuaderno](Python_Barranquilla.ipynb) donde se crean las visualizaciones.
 
 
-## 📂 Clonar Reposotorio
+## 📂 Clonar Repositorio
 
 ```
 git clone https://github.com/rodrigotesone1997/Competencia_Barranquilla_2021.git
@@ -28,7 +29,7 @@ git clone https://github.com/rodrigotesone1997/Competencia_Barranquilla_2021.git
 3.8.10
 ```
 
-## 🪐📓 Version Jupyter Notebook
+## 🪐📓 Versión Jupyter Notebook
 
 jupyter core     : 4.7.1</br>
 jupyter-notebook : 6.4.0</br>
